@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+#covid {
+    background: url('covidbg.jpg') no-repeat fixed top;
+    background-size: cover;
+    padding: 20%;
+}
+
+.logo {
+    width: 600px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+#covid h1 {
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Patua One', cursive;
+    margin-top: 1.5%;
+}
+
+#covidInfo p {
+    color: whitesmoke;
+    font-family: 'Patua One', cursive;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+#covidInfo2 p {
+    color: black;
+    font-family: 'Patua One', cursive;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+#covidInfo h2 {
+    color: whitesmoke;
+    font-family: 'Patua One', cursive;
+    margin-top: 2%;
+}
+
+
+#covidInfo2 h2 {
+    color: black;
+    font-family: 'Patua One', cursive;
+}
+
+
+#covidInfo2 ol {
+    color: whitesmoke;
+    font-family: 'Patua One', cursive;
+}
+
+#covidInfo2 {
+    padding-bottom: 1%;
+}
+
+#content ul li {
+    color: whitesmoke;
+    font-family: 'Patua One', cursive;
+    list-style-type: disc;
+}
+
+#covidInfo2 li {
+    color: black;
+    font-family: 'Patua One', cursive;
+    font-size: 3vh;
+}
+
+#covidInfo3 h2 {
+    color: whitesmoke;
+    font-family: 'Patua One', cursive;
+    margin-top: 2%;
+}
+
+#covidInfo3 p {
+    color: whitesmoke;
+    font-family: 'Patua One', cursive;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+#covidInfo3 li {
+    color: whitesmoke;
+    font-family: 'Patua One', cursive;
+    font-size: 3vh;
+}
+
+#WHO h2 {
+    color: black;
+    font-family: 'Patua One', cursive;
+}
+
+#WHO {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.imgfloat1 {
+	width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	overflow: hidden;
+	transform: translatey(0px);
+    animation: float 2.5s ease-in-out infinite;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+
+.imgfloat2 {
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+	overflow: hidden;
+	transform: translatey(0px);
+    animation: float 2.5s ease-in-out infinite;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.imgfloat3 {
+    width: 200px;
+    height: 150px;
+    box-sizing: border-box;
+	overflow: hidden;
+	transform: translatey(0px);
+    animation: float 2.5s ease-in-out infinite;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.imgfloat4 {
+    width: 200px;
+    height: 150px;
+    box-sizing: border-box;
+	overflow: hidden;
+	transform: translatey(0px);
+    animation: float 2.5s ease-in-out infinite;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
